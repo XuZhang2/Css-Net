@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=3,0,2 python3 main.py --config_path=configs/Shoes_trans_g2_res50_config.json --experiment_description=layer3+4+0.1:10kl+text3+4--device_idx=3,0,2 --num_workers=8 --batch_size=30 --optimizer='Adam'
+# HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 WANDB_MODE=offline CUDA_VISIBLE_DEVICES=1,5 python3 main.py --config_path=configs/Shoes_trans_g2_res50_config.json --experiment_description=p05_noise*8_text --device_idx=1,5 --num_workers=8 --batch_size=30 --optimizer='Adam'

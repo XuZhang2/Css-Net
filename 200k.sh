@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=2,1,3 python3 main.py --config_path=configs/Fashion200k_trans_g2_res18_config.json --experiment_description='200klr2e-4res18batch126_decay0.1_baseline' --device_idx=2,1,3 --optimizer='Adam' --num_workers=16 --batch_size=126 --image_encoder=resnet18_layer4
