@@ -16,8 +16,8 @@ Download these datasets [Shoes](http://tamaraberg.com/attributesDataset/index.ht
 Please make sure you have installed anaconda or miniconda. The version about `pytorch` and `cudatoolkit` should be depended on your machine.
 
 ```shell
-conda create -n triplet_image python=3.7 \
-conda activate triplet_image \
+conda create -n css_net python=3.7 \
+conda activate css_net \
 pip3 install -r requirements.txt
 ```
 
