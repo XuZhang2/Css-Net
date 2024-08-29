@@ -28,7 +28,7 @@ Modify the config files in `config` directory
 Run the following script to train and evluate the model:
 
 ```shell
-CUDA_VISIBLE_DEVICES=3,0,2 python3 main.py --config_path=configs/Shoes_trans_g2_res50_config.json --experiment_description=layer3+4+0.1:10kl+text3+4--device_idx=3,0,2 --num_workers=8 --batch_size=30 --optimizer='Adam'
+CUDA_VISIBLE_DEVICES=0,1,2 python3 main.py --config_path=configs/Shoes_trans_g2_res50_config.json --experiment_description=base --device_idx=0,1,2 --num_workers=8 --batch_size=30 --optimizer='Adam'
 ```
 Example scripts are placed in the current directory named `shoes.sh`, `iq.sh`, and `200k.sh`. 
 
