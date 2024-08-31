@@ -44,7 +44,7 @@ RoBerta: https://huggingface.co/docs/transformers/model_doc/roberta
 
 ## 	Citation
 If you use our code, please cite our work:
-```
+```bib
 @article{ZHANG2024112135,
     title = {Collaborative group: Composed image retrieval via consensus learning from noisy annotations},
     journal = {Knowledge-Based Systems},
