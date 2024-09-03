@@ -1,6 +1,6 @@
 # Collaborative group: Composed image retrieval via consensus learning from noisy annotations
 
-[[KBS](https://www.sciencedirect.com/science/article/pii/S095070512400769X)] [[arxiv](https://arxiv.org/abs/2402.00086)] 
+[[KBS](https://www.sciencedirect.com/science/article/pii/S095070512400769X)] [[arxiv](https://arxiv.org/abs/2306.02092)] 
 
 The directory contains source code of the published article:
 
