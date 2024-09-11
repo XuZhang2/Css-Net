@@ -6,6 +6,8 @@ The directory contains source code of the published article:
 
 Zhang et al's Collaborative group: Composed image retrieval via consensus learning from noisy annotations.
 
+![image](imgs/overview.png)
+
 ## Data
 
 
